@@ -27,11 +27,11 @@ open_graph:
 navbar:
     # Navigation bar menu links
     menu:
-        Home: /
-        Archives: /archives
-        Categories: /categories
-        Tags: /tags
-        About: /about
+        首页: /
+        存档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Navigation bar links to be shown on the right
     # links:
     #     Download on GitHub:
@@ -74,7 +74,8 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: disqus
+    shortname: fdawork
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
@@ -82,19 +83,19 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: ''
+        qrcode: '/images/alipay.png'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
-    -
-        # Donation entry name
-        type: paypal
-        # Paypal business ID or email address
-        business: ''
-        # Currency code
-        currency_code: USD
+        qrcode: '/images/wechat.png'
+    # -
+    #     # Donation entry name
+    #     type: paypal
+    #     # Paypal business ID or email address
+    #     business: ''
+    #     # Currency code
+    #     currency_code: USD
     # -
     #     # Donation entry name
     #     type: patreon
@@ -104,7 +105,7 @@ donate:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
     # Share plugin name
-    type: 
+    type: sharejs
 # Sidebar settings.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:

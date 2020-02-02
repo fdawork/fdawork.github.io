@@ -13,6 +13,7 @@ html
     font-size: 14px
 
 body
+    background: url("/images/background.png")
     background-color: #f7f7f7
 
 body, button, input, select, textarea
@@ -78,6 +79,7 @@ img.thumbnail
         max-height: 1.75rem
 
 .navbar-main
+    background: url("/images/header.png")
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05)
     .navbar-menu,
     .navbar-start,
@@ -97,11 +99,14 @@ img.thumbnail
         justify-content: flex-end
         margin-left: auto
     .navbar-item
+        color: #add8e6
+        font-size: large
+        font-weight: bold
         display: flex
         align-items: center
         padding: 1.25rem 0.75rem
         &.is-active
-            color: hsl(217, 71%, 53%)
+            color: #b2efe7
             background-color: transparent
     @media screen and (max-width: screen-desktop - 1)
         .navbar-menu

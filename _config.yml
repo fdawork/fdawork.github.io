@@ -4,9 +4,9 @@
 
 # Site
 title: FDA注册
-subtitle: 'FDA注册'
+subtitle: '专注医疗器械出口合规 助力出口'
 description: 'FDA注册'
-keywords:
+keywords: 医疗器械,出口,合规
 author: Carly Wang
 language: zh-CN
 timezone: ''
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:

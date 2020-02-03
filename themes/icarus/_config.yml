@@ -28,9 +28,13 @@ navbar:
     # Navigation bar menu links
     menu:
         首页: /
+        注册认证: /categories/注册认证
+        体系审厂: /categories/体系审厂
+        欧代: /categories/欧代
+        自由销售证书: /categories/自由销售证书
         存档: /archives
-        分类: /categories
-        标签: /tags
+        # 分类: /categories
+        # 标签: /tags
         关于: /about
     # Navigation bar links to be shown on the right
     # links:
@@ -128,36 +132,36 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: 王红(Carly Wang)
+        author: FDA注册
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        author_title: 医疗器械注册认证
         # Author's current location to be shown in the profile widget
-        location: Shanghai
+        location: 上海
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
-        gravatar: carly.wang@embest.net
+        gravatar: 
         # Whether to show avatar image rounded or square
         avatar_rounded: false
         # Path or URL for the follow button
-        follow_link: 'https://facebook.com'
+        follow_link: 
         # Links to be shown on the bottom of the profile widget
         social_links:
-            # Github:
-            #     icon: fab fa-github
-            #     url: 'https://github.com/ppoffice'
-            Facebook:
-                icon: fab fa-facebook
-                url: 'https://facebook.com'
+            Weixin:
+                icon: fab fa-weixin
+                url: '/images/weixin.jpg'
+            QQ:
+                icon: fab fa-qq
+                url: '/images/qq.jpg'
             Twitter:
                 icon: fab fa-twitter
                 url: 'https://twitter.com'
             Linkedin:
                 icon: fab fa-linkedin
                 url: 'https://linkedin.com'
-            RSS:
-                icon: fas fa-rss
-                url: /
+            # RSS:
+            #     icon: fas fa-rss
+            #     url: /
     -
         # Widget name
         type: toc
@@ -170,21 +174,32 @@ widgets:
         position: left
         # Links to be shown in the links widget
         links:
-            Hexo: 'https://hexo.io'
-            PPOffice: 'https://github.com/ppoffice'
-    -
-        # Widget name
-        type: category
-        # Where should the widget be placed, left or right
-        position: left
+            NMPA: 'http://www.nmpa.gov.cn/WS04/CL2042/'
+            评审中心: 'https://www.cmde.org.cn/CL0001/'
+            评审电话: 'https://www.cmde.org.cn/CL0017/'
+            法规文件: 'https://www.cmde.org.cn/CL0007/'
+            FDA登记列名: 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm'
+            FDA QSR820: 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm'
+            510k库: 'https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMN/pmn.cfm'
+            欧盟CE指南文件: 'https://ec.europa.eu/growth/sectors/medical-devices/current-directives/guidance_en'
+            MDR法规: 'https://ec.europa.eu/growth/sectors/medical-devices_en'
+            NB机构: 'https://ec.europa.eu/growth/tools-databases/nando/index.cfm?fuseaction=directive.notifiedbody&dir_id=13'
+            IVDD 标准: 'https://ec.europa.eu/growth/single-market/european-standards/harmonised-standards/iv-diagnostic-medical-devices_en'
+
     -
         # Widget name
         type: tagcloud
         # Where should the widget be placed, left or right
         position: left
+
     -
         # Widget name
         type: recent_posts
+        # Where should the widget be placed, left or right
+        position: right
+    -
+        # Widget name
+        type: category
         # Where should the widget be placed, left or right
         position: right
     -
